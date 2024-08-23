@@ -2,6 +2,8 @@
   "name": "figure-lib-js",
   "module": "src/index.ts",
   "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.t.js",
   "scripts": {
     "build": "tsc",
     "lint": "eslint .",
